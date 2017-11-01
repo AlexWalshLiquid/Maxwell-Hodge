@@ -1,0 +1,643 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ERP Portfolio v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-05-21 07:48:03+0000\n"
+"Last-Translator: europa <tamas@europadns.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Romanian\n"
+"X-Poedit-Country: ROMANIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: admin/includes/class_ERP_Columns.php:10
+#@ erp_portfolio
+msgid "Featured Image"
+msgstr ""
+
+#: admin/includes/class_ERP_Columns.php:12
+#@ erp_portfolio
+msgid "Category"
+msgstr ""
+
+#: admin/includes/class_ERP_Columns.php:38
+#@ erp_portfolio
+msgid "Order"
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:41
+#@ erp_portfolio
+msgid "Portfolios Built via Builder"
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:42
+#@ erp_portfolio
+msgid "Portfolio Build"
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:43
+#@ erp_portfolio
+msgid "Search Portfolio Builds"
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:44
+#@ erp_portfolio
+msgid "Popular Portfolio Builds"
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:45
+#@ erp_portfolio
+msgid "All Portfolio Builds"
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:46
+#@ erp_portfolio
+msgid "Parent Portfolio Build"
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:47
+#@ erp_portfolio
+msgid "Parent Portfolio Build:"
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:48
+#@ erp_portfolio
+msgid "Edit Portfolio Build"
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:49
+#@ erp_portfolio
+msgid "Update Portfolio Build"
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:50
+#@ erp_portfolio
+msgid "Add New Portfolio Build"
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:51
+#@ erp_portfolio
+msgid "New Portfolio Build"
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:52
+#@ erp_portfolio
+msgid "Separate builds with commas"
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:53
+#@ erp_portfolio
+msgid "Add or remove Portfolio Builds"
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:54
+#@ erp_portfolio
+msgid "Choose from most used builds"
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:55
+#@ erp_portfolio
+msgid "Portfolio Builds"
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:70
+#@ erp_portfolio
+msgid "ERP Portfolio Builder"
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:71
+#: admin/includes/extensions/Builder_ERP_Extension.php:105
+#@ erp_portfolio
+msgid "Portfolio Builder"
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:93
+#@ erp_portfolio
+msgid "We couldn`t find any portfolio with a name of "
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:94
+#@ erp_portfolio
+msgid "We couldn`t find any category with a name of "
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:95
+#@ erp_portfolio
+msgid "We couldn`t find any item with a name of "
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:96
+#@ erp_portfolio
+msgid "Do you really want to delete this portfolio?"
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:97
+#@ erp_portfolio
+msgid "Do you really want to delete this portfolio item?"
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:110
+#@ erp_portfolio
+msgid "Please create or select an existing portfolio..."
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:117
+#@ erp_portfolio
+msgid "Build New Portfolio"
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:120
+#@ erp_portfolio
+msgid "Portfolio Name"
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:125
+#@ erp_portfolio
+msgid "Or Select Existing Portfolio"
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:127
+#@ erp_portfolio
+msgid "Choose a portfolio"
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:133
+#@ erp_portfolio
+msgid "Update Portfolio"
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:134
+#@ erp_portfolio
+msgid "Delete Portfolio"
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:224
+#@ erp_portfolio
+msgid "Portfolio created successfully."
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:231
+#@ erp_portfolio
+msgid "Please provide a name for your new portfolio."
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:273
+#@ erp_portfolio
+msgid "Portfolio updated successfully!"
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:275
+#@ erp_portfolio
+msgid "We encountered an error while trying to update your portfolio."
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:278
+#@ erp_portfolio
+msgid "We encountered an error while trying to read your portfolio."
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:299
+#@ erp_portfolio
+msgid "Portfolio deleted successfully!"
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:302
+#@ erp_portfolio
+msgid "We encountered an error while trying to delete your portfolio."
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:350
+#@ erp_portfolio
+msgid "Add Portfolio Items"
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:354
+#: includes/class_ERP_Base.php:36
+#: includes/class_ERP_Base.php:66
+#@ erp_portfolio
+msgid "Portfolio Categories"
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:356
+#@ erp_portfolio
+msgid "Choose a category"
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:357
+#: admin/includes/extensions/Shortcode_ERP_Extension.php:82
+#: admin/includes/extensions/Shortcode_ERP_Extension.php:203
+#@ erp_portfolio
+msgid "All"
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:362
+#: admin/includes/extensions/Builder_ERP_Extension.php:374
+#@ erp_portfolio
+msgid "Add"
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:367
+#@ erp_portfolio
+msgid "Add Item to Portfolio"
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:369
+#: admin/includes/extensions/Builder_ERP_Extension.php:433
+#@ erp_portfolio
+msgid "Choose an item"
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:381
+#@ erp_portfolio
+msgid "Portfolio Description"
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:387
+#@ erp_portfolio
+msgid "Builder"
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:396
+#@ erp_portfolio
+msgid "We encountered an error while trying to load your portfolio."
+msgstr ""
+
+#: admin/includes/extensions/Builder_ERP_Extension.php:427
+#@ erp_portfolio
+msgid "Invalid category!"
+msgstr ""
+
+#: admin/includes/extensions/Settings_ERP_Extension.php:16
+#: admin/includes/extensions/Settings_ERP_Extension.php:44
+#@ erp_portfolio
+msgid "ERP Portfolio Settings"
+msgstr ""
+
+#: admin/includes/extensions/Settings_ERP_Extension.php:17
+#: admin/includes/extensions/Tinymce_ERP_Extension.php:32
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:26
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:35
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:44
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:53
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:62
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:70
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:79
+#@ erp_portfolio
+msgid "Portfolio Settings"
+msgstr ""
+
+#: admin/includes/extensions/Settings_ERP_Extension.php:27
+#@ erp_portfolio
+msgid "General"
+msgstr ""
+
+#: admin/includes/extensions/Settings_ERP_Extension.php:40
+#@ erp_portfolio
+msgid "Portfolio slug updated successfully"
+msgstr ""
+
+#: admin/includes/extensions/Settings_ERP_Extension.php:57
+#@ erp_portfolio
+msgid "Change portfolio slug"
+msgstr ""
+
+#: admin/includes/extensions/Tinymce_ERP_Extension.php:29
+#@ erp_portfolio
+msgid "We couldn`t find any portfolios. Please create a portfolio to use this feature."
+msgstr ""
+
+#: admin/includes/extensions/Tinymce_ERP_Extension.php:30
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:12
+#: includes/class_ERP_Base.php:14
+#: includes/class_ERP_Base.php:46
+#: includes/class_ERP_Base.php:47
+#@ erp_portfolio
+msgid "ERP Portfolio"
+msgstr ""
+
+#: admin/includes/extensions/Tinymce_ERP_Extension.php:31
+#@ erp_portfolio
+msgid "Portfolio Customizer"
+msgstr ""
+
+#: admin/includes/extensions/Tinymce_ERP_Extension.php:33
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:88
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:97
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:106
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:115
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:124
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:133
+#@ erp_portfolio
+msgid "Item Settings"
+msgstr ""
+
+#: admin/includes/extensions/Tinymce_ERP_Extension.php:34
+#@ erp_portfolio
+msgid "Choose portfolio"
+msgstr ""
+
+#: admin/includes/extensions/Tinymce_ERP_Extension.php:35
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:30
+#@ erp_portfolio
+msgid "Layout"
+msgstr ""
+
+#: admin/includes/extensions/Tinymce_ERP_Extension.php:36
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:39
+#@ erp_portfolio
+msgid "Image aspect ratio"
+msgstr ""
+
+#: admin/includes/extensions/Tinymce_ERP_Extension.php:37
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:48
+#@ erp_portfolio
+msgid "Pagination type"
+msgstr ""
+
+#: admin/includes/extensions/Tinymce_ERP_Extension.php:38
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:57
+#@ erp_portfolio
+msgid "Number of columns"
+msgstr ""
+
+#: admin/includes/extensions/Tinymce_ERP_Extension.php:39
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:66
+#@ erp_portfolio
+msgid "Items to display"
+msgstr ""
+
+#: admin/includes/extensions/Tinymce_ERP_Extension.php:40
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:74
+#@ erp_portfolio
+msgid "Category filtering"
+msgstr ""
+
+#: admin/includes/extensions/Tinymce_ERP_Extension.php:41
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:75
+#@ erp_portfolio
+msgid "enable / disable filtering ( show / hide categories )"
+msgstr ""
+
+#: admin/includes/extensions/Tinymce_ERP_Extension.php:42
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:83
+#@ erp_portfolio
+msgid "Load items page through AJAX"
+msgstr ""
+
+#: admin/includes/extensions/Tinymce_ERP_Extension.php:43
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:84
+#@ erp_portfolio
+msgid "open item`s page through Magnific Popup"
+msgstr ""
+
+#: admin/includes/extensions/Tinymce_ERP_Extension.php:44
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:92
+#@ erp_portfolio
+msgid "Zoom icon"
+msgstr ""
+
+#: admin/includes/extensions/Tinymce_ERP_Extension.php:45
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:101
+#@ erp_portfolio
+msgid "Link icon"
+msgstr ""
+
+#: admin/includes/extensions/Tinymce_ERP_Extension.php:46
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:93
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:102
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:111
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:120
+#@ erp_portfolio
+msgid "show / hide"
+msgstr ""
+
+#: admin/includes/extensions/Tinymce_ERP_Extension.php:47
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:119
+#@ erp_portfolio
+msgid "Description"
+msgstr ""
+
+#: admin/includes/extensions/Tinymce_ERP_Extension.php:48
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:128
+#@ erp_portfolio
+msgid "Description position"
+msgstr ""
+
+#: admin/includes/extensions/Tinymce_ERP_Extension.php:49
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:110
+#@ erp_portfolio
+msgid "Show categories"
+msgstr ""
+
+#: admin/includes/extensions/Tinymce_ERP_Extension.php:50
+#@ erp_portfolio
+msgid "Padding ( Gutter )"
+msgstr ""
+
+#: admin/includes/extensions/Tinymce_ERP_Extension.php:51
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:146
+#@ erp_portfolio
+msgid "Pagination alignment"
+msgstr ""
+
+#: admin/includes/extensions/Tinymce_ERP_Extension.php:52
+#@ erp_portfolio
+msgid "Filter alignment"
+msgstr ""
+
+#: admin/includes/extensions/Tinymce_ERP_Extension.php:53
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:142
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:151
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:159
+#@ erp_portfolio
+msgid "Alignment &amp; Padding"
+msgstr ""
+
+#: admin/includes/extensions/Tinymce_ERP_Extension.php:120
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:187
+#@ erp_portfolio
+msgid "1 : auto ( default )"
+msgstr ""
+
+#: admin/includes/extensions/Tinymce_ERP_Extension.php:125
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:188
+#@ erp_portfolio
+msgid "1 : 1"
+msgstr ""
+
+#: admin/includes/extensions/Tinymce_ERP_Extension.php:129
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:189
+#@ erp_portfolio
+msgid "16 : 9"
+msgstr ""
+
+#: admin/includes/extensions/Tinymce_ERP_Extension.php:138
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:195
+#@ erp_portfolio
+msgid "None"
+msgstr ""
+
+#: admin/includes/extensions/Tinymce_ERP_Extension.php:142
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:196
+#@ erp_portfolio
+msgid "Load More Button ( default )"
+msgstr ""
+
+#: admin/includes/extensions/Tinymce_ERP_Extension.php:147
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:197
+#@ erp_portfolio
+msgid "Paginated"
+msgstr ""
+
+#: admin/includes/extensions/Tinymce_ERP_Extension.php:156
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:203
+#@ erp_portfolio
+msgid "2 columns"
+msgstr ""
+
+#: admin/includes/extensions/Tinymce_ERP_Extension.php:160
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:204
+#@ erp_portfolio
+msgid "3 columns"
+msgstr ""
+
+#: admin/includes/extensions/Tinymce_ERP_Extension.php:164
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:205
+#@ erp_portfolio
+msgid "4 columns ( default )"
+msgstr ""
+
+#: admin/includes/extensions/Tinymce_ERP_Extension.php:169
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:206
+#@ erp_portfolio
+msgid "5 columns"
+msgstr ""
+
+#: admin/includes/extensions/Tinymce_ERP_Extension.php:178
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:212
+#@ erp_portfolio
+msgid "Masonry ( default )"
+msgstr ""
+
+#: admin/includes/extensions/Tinymce_ERP_Extension.php:183
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:213
+#@ erp_portfolio
+msgid "Fit Rows"
+msgstr ""
+
+#: admin/includes/extensions/Tinymce_ERP_Extension.php:192
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:219
+#@ erp_portfolio
+msgid "Inside ( default )"
+msgstr ""
+
+#: admin/includes/extensions/Tinymce_ERP_Extension.php:197
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:220
+#@ erp_portfolio
+msgid "Outside"
+msgstr ""
+
+#: admin/includes/extensions/Tinymce_ERP_Extension.php:206
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:226
+#@ erp_portfolio
+msgid "Left"
+msgstr ""
+
+#: admin/includes/extensions/Tinymce_ERP_Extension.php:210
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:227
+#@ erp_portfolio
+msgid "Center ( default )"
+msgstr ""
+
+#: admin/includes/extensions/Tinymce_ERP_Extension.php:215
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:228
+#@ erp_portfolio
+msgid "Right"
+msgstr ""
+
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:15
+#@ erp_portfolio
+msgid "Content"
+msgstr ""
+
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:16
+#@ erp_portfolio
+msgid "Portfolio customizer"
+msgstr ""
+
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:22
+#@ erp_portfolio
+msgid "Portfolio"
+msgstr ""
+
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:137
+#@ erp_portfolio
+msgid "Filtering alignment"
+msgstr ""
+
+#: admin/includes/extensions/VisualComposer_ERP_Extension.php:155
+#@ erp_portfolio
+msgid "Items Padding ( Gutter )"
+msgstr ""
+
+#: includes/class_ERP_Base.php:13
+#@ erp_portfolio
+msgid "All Portfolio Items"
+msgstr ""
+
+#: includes/class_ERP_Base.php:15
+#@ erp_portfolio
+msgid "Add new"
+msgstr ""
+
+#: includes/class_ERP_Base.php:16
+#@ erp_portfolio
+msgid "Add new portfolio item"
+msgstr ""
+
+#: includes/class_ERP_Base.php:17
+#@ erp_portfolio
+msgid "Edit portfolio item"
+msgstr ""
+
+#: includes/class_ERP_Base.php:18
+#@ erp_portfolio
+msgid "Search portfolio items"
+msgstr ""
+
+#: includes/class_ERP_Base.php:19
+#@ erp_portfolio
+msgid "Portfolio item not found."
+msgstr ""
+
+#: includes/class_ERP_Base.php:20
+#@ erp_portfolio
+msgid "No portfolio item found in Trash."
+msgstr ""
+
+#: includes/class_ERP_Base.php:57
+#: includes/class_ERP_Base.php:58
+#@ erp_portfolio
+msgid "Add Portfolio Item"
+msgstr ""
+
+#: includes/class_ERP_Base.php:65
+#@ erp_portfolio
+msgid "ERP Portfolio Categories"
+msgstr ""
+
+#: includes/class_ERP_Base.php:95
+#@ erp_portfolio
+msgid "Warning! Feature image is missing. This Item won`t be visible on the Portfolio Builder Page."
+msgstr ""
+

@@ -1,0 +1,10 @@
+<wpml-config> 
+    <admin-texts>
+        <key name="nfw-sidebars-custom">
+            <key name="title" />
+            <key name="description" />
+        </key>
+    </admin-texts>     
+</wpml-config>
+
+

@@ -1,0 +1,368 @@
+/* ==========================================================================
+   =Portfolio Filter
+   ========================================================================== */
+
+	.portfolio-filter ul {
+		margin-bottom: 60px;
+		list-style: none;
+		text-align: center;
+	}
+	
+	.portfolio-filter ul li { 
+		display: inline-block;
+		margin-right: 20px;
+	}
+	
+	.portfolio-filter ul li:last-child { margin-right: 0; }
+	
+	.portfolio-filter ul li a {
+		display: block;
+		padding: 10px 20px;
+		border: 1px solid transparent;
+		font-family: 'Raleway', Arial, sans-serif;
+		font-size: 12px;
+		font-weight: 400;
+		letter-spacing: 3px;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+	
+	.portfolio-filter ul li a:hover,
+	.portfolio-filter ul li a.active {
+		border-color: #000;
+	}	
+	
+	@media (max-width: 767px) {
+		
+		.portfolio-filter ul li { 
+			display: block;
+			margin-right: 0;
+		}
+		
+	}
+/* ==========================================================================
+   =Portfolio Pagination
+   ========================================================================== */
+
+       .erp-pagination { margin-bottom: 60px 0; }
+
+       .erp-pagination ul { 
+		list-style: none;
+		text-align: center;
+	}
+        
+        .erp-pagination ul li { display: inline-block; }
+
+	.erp-pagination:after { 
+		visibility: hidden;
+		display: block;
+		height: 0;
+		font-size: 0;
+		content: " ";
+		clear: both;		
+	}	
+	
+	.erp-pagination .nav-links {}
+
+	.erp-pagination .page-numbers {
+		display: inline-block;
+		border: none !important;
+		padding: 3px 13px;
+		margin-right: 5px;
+		font-family: 'Raleway', Arial, sans-serif;
+		font-weight: 400;
+		text-decoration: none;
+		-webkit-transition: all 0.3s;
+				transition: all 0.3s;
+	}
+        
+        .erp-pagination .page-numbers li:hover a{
+            color:#fff;
+        }
+        
+        .erp-pagination .page-numbers .page-numbers.current{
+            background-color:#000;
+            color:#fff;
+             border: 1px solid #000;
+        }
+        
+        .erp-pagination .page-numbers li {
+                border: 1px solid #e6e6e6;
+		margin-right: 10px;
+        }
+        .erp-pagination .page-numbers:hover{
+            background-color:transparent;
+        }
+        
+	.erp-pagination .page-numbers:last-child { margin-right: 0; }
+
+	.erp-pagination .page-numbers li:hover,
+	.erp-pagination .page-numbers.current li {
+		border-color: #000;
+		background-color: #000;
+		color: #fff;
+	}
+
+	.erp-pagination .current {}
+	
+	.erp-pagination .page-numbers.dots {
+		border: none;
+	}
+	
+	.erp-pagination .page-numbers.dots:hover {
+		background-color: transparent;
+		color: #212121;
+	}
+
+        
+/* ==========================================================================
+   =Portfolio Grid
+   ========================================================================== */
+
+     .portfolio-grid {
+		margin-bottom: 60px;
+		list-style: none;
+	}
+	
+	.portfolio-grid.gutter { margin: -15px 15px 80px 15px; }
+	
+	.portfolio-grid .item {
+		float: left;
+		width: 33.33333%;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+				box-sizing: border-box;
+	}
+	
+	.portfolio-grid.gutter .item { padding: 15px; }
+	
+	.portfolio-grid .portfolio-item, 
+	.portfolio-grid .portfolio-item-preview { margin-bottom: 0; }
+	
+	.portfolio-grid.two-cols .item { width: 50%; } 
+	.portfolio-grid.three-cols .item { width: 33.33333%; } 
+	.portfolio-grid.four-cols .item { width: 33.33333%; } 
+        .portfolio-grid.five-cols .item { width: 25%; }
+	
+	/*
+	 * 1. Clearfix hack 
+	 */
+	.portfolio-grid:after { /* 1 */
+		visibility: hidden;
+		display: block;
+		height: 0;
+		font-size: 0;
+		content: " ";
+		clear: both;		
+	}
+	
+	@media (min-width: 1200px) {
+		
+		.portfolio-grid.four-cols .item { width: 25%; } 
+                 .portfolio-grid.five-cols .item { width: 20%; }
+		
+	}
+	
+	@media (min-width: 768px) and (max-width: 991px) {
+		
+		.portfolio-grid.three-cols .item,
+                 .portfolio-grid.five-cols .item,
+		.portfolio-grid.four-cols .item { width: 50%; }
+ 
+		
+	}
+	
+	@media (max-width: 767px) {
+		
+		.portfolio-grid .item {
+			float: none;
+			width: 100%; 
+		}
+		
+		.portfolio-grid.gutter { margin: -15px 0 80px 0; }
+		
+		.portfolio-grid.two-cols .item,
+		.portfolio-grid.three-cols .item,
+                 .portfolio-grid.five-cols .item,
+		.portfolio-grid.four-cols .item { width: 100%; }
+		
+	}
+
+/* ==========================================================================
+   =Portfolio Item
+   ========================================================================== */
+	
+	.portfolio-item { 
+		position: relative; 
+		margin-bottom: 30px;
+	}
+	
+	.portfolio-item-preview { 
+		position: relative;
+		margin-bottom: 30px;
+	}
+	
+	.portfolio-item-preview > img {
+		display: block;
+		width: 100%;
+	}
+	
+	.portfolio-item-overlay {
+		position: absolute; 
+		top: 0; 
+		right: 0; 
+		bottom: 0; 
+		left: 0; 
+		background-color: rgba(255, 255, 255, 0.75);
+		opacity: 0;
+		-webkit-transform: scale(0);
+			-ms-transform: scale(0);
+				transform: scale(0);
+		-webkit-transition: all 0.3s;
+				transition: all 0.3s;
+	}
+		
+	.portfolio-item-overlay-actions {
+		position: absolute;
+		top: 30%;
+		width: 100%;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+				box-sizing: border-box;
+		text-align: center;
+	}
+	
+	.portfolio-item-overlay-actions .portfolio-item-zoom,
+	.portfolio-item-overlay-actions .portfolio-item-link {
+		display: inline-block;
+		padding: 10px;
+		font-family: 'Raleway', Arial, sans-serif;
+		font-size: 40px;
+		font-weight: 400;
+		text-decoration: none; 
+	}
+	
+	.portfolio-item-overlay .portfolio-item-description { text-align: center; }
+	
+	.portfolio-item-preview + .portfolio-item-description { 
+		margin: 30px 0;
+		text-align: center;
+	}
+	
+	.portfolio-item-overlay .portfolio-item-description {
+		position: absolute;
+		top: 50%;
+		left: 0;
+		width: 100%;
+	}
+	
+	.portfolio-item-overlay .portfolio-item-description h5 {}
+	
+	.portfolio-item:hover .portfolio-item-overlay { 
+		opacity: 1; 
+		-webkit-transform: scale(1);
+			-ms-transform: scale(1);
+				transform: scale(1);
+	}
+	
+	.portfolio-item.parallax {
+		margin-bottom: 0;
+		background: no-repeat center center; 
+	}	
+	
+	.portfolio-item.parallax:last-child { margin-bottom: -50px; }
+	
+	.portfolio-item.parallax .portfolio-item-preview { 
+		min-height: 600px;
+		margin-bottom: 0;
+	}
+        
+/* ==========================================================================
+   =Portfolio Loader
+   ========================================================================== */
+	.erp-loader{ background: #fff url('../img/upload-load.gif') no-repeat center center; width: 180px; height: 180px; border-radius: 180px; margin: 0 auto; }
+
+/* ==========================================================================
+   =Portfolio Iframe
+   ========================================================================== */
+	.erp-wrap{ padding: 25px; position: relative; }
+	.erp-iframe-wrap{ text-align: center; padding: 0; height: 100%; }
+	.erp-iframe-wrap .mfp-close{ background: #D4AE60; border-radius: 25px; padding: 0; opacity: 1; color: #fff; cursor: pointer; top: 35px; right: 35px; }
+	.erp-iframe-wrap .erp-loader{ position: relative; margin: 100px auto 0; }
+	.erp-iframe-wrap .mfp-iframe{ background: #fff; box-shadow: none; max-width: 980px; width: 100%; height: 100%; margin: 100px auto; position: absolute; left: -9999px; }
+
+	@media (min-width: 1400px) {
+		.mfp-iframe-scaler iframe { max-width: 1300px; }
+	}
+
+	@media (min-width: 768px) and (max-width: 979px) {
+		.mfp-iframe-scaler iframe{ max-width: 100%; }
+	}
+
+	@media (max-width: 767px) {
+		.mfp-iframe-scaler iframe { max-width: 100%; }
+	}
+
+/* ==========================================================================
+   =Buttons
+   ========================================================================== */
+	.btn { 
+		display: inline-block; 
+		padding: 6px 15px; 
+		border: 1px solid #000;
+		border-radius: 3px;
+		margin: 0 5px 20px 0;
+		background-color: transparent;
+		color: #000;
+		font-size: 10px;
+		line-height: 18px;
+		font-weight: 500;
+		letter-spacing: 2px;
+		text-decoration: none !important;
+		text-transform: uppercase;
+		cursor: pointer;
+		-webkit-transition: all 0.3s;
+				transition: all 0.3s; 	
+	}
+	
+	a.btn { color: #000; }
+	
+	.btn:focus { outline: 0; }
+	
+	.btn-large {
+		padding: 12px 25px;
+		font-size: 12px;
+	}
+	
+	.btn-small { padding: 4px 10px; }
+	
+	.btn i { font-size: 120%; }
+	
+	.btn:hover { border-radius: 20px; }
+        
+        /* =Black Button
+   ========================================================================== */
+	
+	.btn-black {
+		border-color: #000 !important;
+		background-color: #000 !important;
+		color: #fff !important;
+	}
+
+/* =Grey Button
+   ========================================================================== */
+	
+	.btn-grey {
+		border-color: #666 !important;
+		background-color: #666 !important;
+		color: #fff !important;
+	}
+        
+        .erp-pagination-load a.erp-load-more.btn:hover { color: #fff; }
+
+/* ==========================================================================
+   =Alignments
+   ========================================================================== */
+	.text-left{ text-align: left; }
+	.text-center{ text-align: center; }
+	.text-right{ text-align: right; }
